@@ -10,6 +10,7 @@ class ProjectController {
     $result = $stetemend->fetchAll(PDO::FETCH_CLASS, "ProjectModel");
     return $result;
   }
+ 
 }
 
 ?>
